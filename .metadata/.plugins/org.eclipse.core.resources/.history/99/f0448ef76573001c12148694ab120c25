@@ -1,0 +1,58 @@
+
+public class Ex01_Print {
+
+		public static void main(String[] args) {
+			
+			//출력기능(함수, 자바에서는 Method)을 가진 객체에게 출력 요청
+			//1. print()
+			System.out.print("Hello");
+			System.out.print("\n");
+			
+			System.out.print("Nice\n");
+			System.out.print("\n");
+			
+			System.out.print('A');
+			System.out.print("\n");
+			
+			System.out.print(10);
+			System.out.print("\n");
+			
+			System.out.print(1.1);
+			System.out.print("\n");
+			
+			System.out.print(true); //Java에서 true와 1은 호환되지 않는다. while(1)은 오류
+			System.out.print("\n");
+			
+			//println
+			System.out.println("줄 바꿔");
+			
+			//문자열의 + 덧셈(결합 연산자)
+			System.out.println(10+20);
+			System.out.println("aaa" + "bbb");
+			
+			//서로 다른 자료형끼리 연산 가능
+			System.out.println(10 + 3.14); //int -> double
+			System.out.println(10 + "aaa"); //int -> string으로 자동형변환. string이 double보다도 자료형이 크기 때문
+			System.out.println(10 + 20 + "aaa"); ///30aaa
+			System.out.println("aaa" + 10 + 20); //aaa1020
+			
+			System.out.println(5 + "+" + 3 + "=" + (5+3));
+			System.out.println(5 + "+" + 3 + "=" + 5+3);
+			
+			//변수명으로도 값 출력됨
+			int num = 10;
+			double num2 = 3.14;
+			System.out.println(num);
+			System.out.println(num2);
+			System.out.println(num + num2);
+			System.out.println(num + " * " + 2 + " = " + num * 2);
+			
+			//print의 "" 안에서 그대로 출력되지 않는 문자 2개: ", \
+			//C언어에서 안 나오던 %는 나오게 됐다.
+			System.out.println("나는 \"홍길동\"입니다.\\ %");
+			
+			//C언어의 printf도 있다. 출력서식도 동일
+			System.out.printf("%4d %.3f \n", 10.5, 1.23456);
+
+		}
+}

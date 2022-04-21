@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Level.java&apos; to &apos;Heal.java&apos;&#x0D;&#x0A;- Original project: &apos;Ex28_Interface2&apos;&#x0D;&#x0A;- Original element: &apos;Level.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Heal.java&apos;" description="Rename compilation unit &apos;Level.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Level.java" name="Heal.java" references="false" stamp="1643262059732" version="1.0"/>
+</session>

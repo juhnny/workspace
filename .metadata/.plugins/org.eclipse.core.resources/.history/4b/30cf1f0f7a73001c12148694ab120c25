@@ -1,0 +1,79 @@
+
+public class Ex01_Test {
+	
+	public static void main(String[] args) {
+		
+//		문제 1.
+//		다음과 같은 형태로 본인의 이름을 출력하는 프로그램을 작성해 보자.
+//		단, System.out.print()는 한번만 사용한다.
+//		 홍길동
+//		 홍 길 동
+//		 홍  길  동
+		
+		System.out.print("홍길동\n홍 길 동\n홍  길  동");
+		
+//		문제2.
+//		다음의 출력결과를 보이도록 예제를 작성해보자. 단, 출력되는 숫자들(20,123,456)은
+//		정수형 숫자 형태로 기입하며 문자열표기" "와 +를 이용하여 아래와 같이 출력하도록 하자.
+//
+//		 제 이름은 홍길동입니다.
+//		 제 나이는 20살이고요.
+//		 제가 사는 곳의 번지수는 123-456 입니다.
+		
+		System.out.println("제 이름은 홍길동입니다.");
+		System.out.println("제 나이는"+20+"살이고요.");
+		System.out.println("제가 사는 곳의 번지수는 "+123+"-"+456+"입니다.");
+
+//		문제3.
+//		다음의 출력결과를 보이도록 예제를 작성해보자. 이번에도 역시 출력되는 숫자들은 정수형
+//		숫자 형태로 기입하며 문자열표기" "와 +를 이용하여 아래와 같이 출력하도록 하자.
+//		각 연산의 결과는 숫자를 직접 기입하지 말고 연산자를 이용하여 결과가 출력되도록 하자.
+//
+//		 4 * 5 = 20
+//		 7 * 9 = 63
+		
+		System.out.println(4+" * "+5+" = "+(4*5));
+
+//		문제4.
+//		문제3번의 방식을 이용해서 구구단 5단을 출력해보자.
+//
+//		 5 * 1 = 5
+//		 5 * 2 = 10
+//		 5 * 3 = 15
+//		 5 * 4 = 20
+//		 5 * 5 = 25
+//		 5 * 6 = 30
+//		 5 * 7 = 35
+//		 5 * 8 = 40
+//		 5 * 9 = 45
+		
+		System.out.println("");
+		
+//		[2-2] 주민등록번호를 숫자로 저장하고자 한다.
+//		이 값을 저장하기 위해서는 어떤 자료형(data type)을 선택해야 할까? 
+//		regNo라는 이름의 변수를 선언하고 자신의 주민등록번호로
+//		초기화 하는 한 줄의 코드를 적으시오. 
+
+		String regNo = new String("123456-1234567");
+		System.out.println(regNo + '\n');
+		
+//		다음 문장들의 출력결과를 적으세요. 오류가 있는 문장의 경우 괄호 안에오류라고 적으시오
+		// 내 예측
+//		System.out.println(“1” + “2”) "12"
+//		System.out.println(true + “”) "true"
+//		System.out.println(‘A' + 'B') "AB"
+//		System.out.println('1' + 2)   1의 아스키값 + 2
+//		System.out.println('1' + '2')	"12"
+//		System.out.println('J' + “ava”) "Java"
+//		System.out.println(true + null)	true
+	
+		System.out.println("1" + "2"); 
+		System.out.println(true + "");
+		System.out.println('A' + 'B');
+		System.out.println('1' + 2);
+		System.out.println('1' + '2');
+		System.out.println('J' + "ava");
+//		System.out.println(true + null); //오류. boolean은 덧셈 연산이 정의돼있지 않음
+		
+	}
+}

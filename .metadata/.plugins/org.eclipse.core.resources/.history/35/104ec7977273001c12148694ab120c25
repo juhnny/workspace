@@ -1,0 +1,14 @@
+
+public class Test4 {
+	
+	public static void main(String[] args) {
+		
+		float exchangeRate = 1136.50F;
+		double USDAmoutn = 600.50;
+		double KRWAmout = 682568.25;
+		
+		System.out.println(exchangeRate);
+		System.out.println(USDAmount);
+		System.out.println(KRWAmount);
+	}
+}

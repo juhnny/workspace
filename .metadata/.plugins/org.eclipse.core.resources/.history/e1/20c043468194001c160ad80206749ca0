@@ -1,0 +1,11 @@
+
+public class ClassB {
+
+	int m = 5;
+	static int n = 10;
+	
+	public static class StaticInner{
+		//이너 클래스에서 아우터 클래스의 static 멤버 사용 가능 
+		int k = n;
+	}
+}
